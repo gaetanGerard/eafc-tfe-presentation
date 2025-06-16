@@ -79,8 +79,12 @@ Durant cette présentation je vais évoquer différents sujets, en commençant p
 
 
 <div class="flex justify-center py-5">
-  <img src="/assets/img/logo-commission-artisan.png" class="w-75">
+  <img src="/assets/img/logo-commission-artisan.png" class="w-35">
 </div>
+
+## <div class="text-center m-5">Problématique</div>
+
+> L’intelligence artificielle peut-elle suffire pour entreprendre un projet lorsqu’on n’a pas les compétences nécessaires ?
 
 <p separator class="flex justify-end text-xs">
   <a href="https://economie.fgov.be/fr/themes/entreprises/developper-et-gerer-une/reconnaitre-et-valoriser/la-reconnaissance-legale-de" rel="noopener noreferrer" target="_blank">SPF Économie</a>
@@ -88,7 +92,9 @@ Durant cette présentation je vais évoquer différents sujets, en commençant p
 
 <!--
 
-  Boucle-la est une jeune entreprise créée par Emilie Kaiser qui souhaitait partager ses créations de boucles d'oreille. Depuis peu, elle a été reconnue par la commission des artisans du SPF Économie
+  Boucle-la est une jeune entreprise créée par Emilie Kaiser qui souhaitait partager ses créations de boucles d'oreille. Depuis peu, elle a été reconnue par la commission des artisans du SPF Économie.
+
+  L'intelligence artificielle peut-elle suffire pour entreprendre un projet lorsqu'on n'a pas les compétences nécessaires ? il s'agit d'une question que je me suis posée au cours du développement de mon thème et que je vais tenter d'y répondre au cours de cet présentation
 -->
 
 ---
@@ -577,7 +583,7 @@ Ici, par exemple, ce bout de code permet de gérer l’ouverture et la fermeture
 
 ---
 
-# <div class="text-center">Et l'IA dans l'histoire ?</div>
+# <div class="text-center">Et l'IA est-ce toujours une bonne idée ?</div>
 
 | Avantages de l’IA                         | Inconvénients de l’IA                             |
 |---------------------------------------------|-----------------------------------------------------|
@@ -592,13 +598,16 @@ Ici, par exemple, ce bout de code permet de gérer l’ouverture et la fermeture
 - Moins utile sur les langages bien connus (JavaScript/SaSS)
 
 <!--
-L’intelligence artificielle, je la vois comme un outil d’assistance, au même titre que VSCode l’était face à Notepad++.
-Dans ce projet, je m’en suis surtout servi pour m’aider sur des parties complexes comme la carte cadeau.
+En arrivant à la fin de cette présentation, une question s’impose : est-ce pertinent d’utiliser l’IA lorsqu’on manque de compétences techniques ?
 
-Elle m’a aussi aidé à mieux comprendre des logiques PHP ou WordPress que je ne maîtrisais pas.
-Mais l’IA a ses limites : elle peut proposer des solutions fausses ou inutilement compliquées.
-C’est pour ça qu’il faut apprendre à l’utiliser intelligemment, et surtout ne pas en dépendre quand on débute.
-Comprendre ce que fait l’IA est essentiel pour en tirer le meilleur.
+Mon avis est nuancé. L’IA m’a été d’une grande aide, surtout avec mes connaissances limitées en WordPress et PHP. Elle m’a permis de générer du code, de déboguer, et même de comprendre certaines fonctions peu documentées. Elle a souvent joué le rôle de formateur rapide et accessible.
+
+Mais cette efficacité a ses limites. L’IA peut se tromper, inventer des réponses ou produire des dizaines de lignes inutiles. Il m’est arrivé de lui demander une optimisation, et de voir mon code totalement réécrit… pour un résultat quasi identique. D’où l’importance d’utiliser Git pour versionner chaque étape avant de lui confier quoi que ce soit.
+
+Alors, est-ce une bonne idée ?
+Oui, mais pas sans prudence.
+
+Je ne recommande pas à quelqu’un sans aucune base en développement d’utiliser l’IA comme je l’ai fait — sur des projets WooCommerce ou pour créer un backend complet. L’IA peut aider, mais elle peut aussi induire en erreur si on n’a pas les compétences pour juger ses réponses.
 -->
 
 ---
