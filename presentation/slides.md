@@ -75,7 +75,7 @@ Durant cette présentation je vais évoquer différents sujets, en commençant p
 # <div class="text-center">Introduction</div>
 
 
-<p class="text-center">Boucle-la By Emilie Kaiser une entreprise spécialisée dans l'artisanat de boucles d'oreille reconnue par la commission des artisans du SPF Économie<sup>1</sup>. Ce qui l'a poussée à créer des bijoux, c'est son envie de réaliser des bijoux qu'elle voudrait porter elle-même et de les partager.</p>
+<p class="text-center">Boucle-la By Emilie Kaiser une entreprise spécialisée dans l'artisanat de boucles d'oreille reconnue par la commission des artisans du SPF Économie. Ce qui l'a poussée à créer des bijoux, c'est son envie de réaliser des bijoux qu'elle voudrait porter elle-même et de les partager.</p>
 
 
 <div class="flex justify-center py-5">
@@ -85,10 +85,6 @@ Durant cette présentation je vais évoquer différents sujets, en commençant p
 ## <div class="text-center m-5">Problématique</div>
 
 > L’intelligence artificielle peut-elle suffire pour entreprendre un projet lorsqu’on n’a pas les compétences nécessaires ?
-
-<p separator class="flex justify-end text-xs">
-  <a href="https://economie.fgov.be/fr/themes/entreprises/developper-et-gerer-une/reconnaitre-et-valoriser/la-reconnaissance-legale-de" rel="noopener noreferrer" target="_blank">SPF Économie</a>
-</p>
 
 <!--
 
@@ -116,10 +112,6 @@ class: my-cool-content-on-the-left
 - Compte client
 - Page de contact
 - Application mobile
-
-<p separator class="flex justify-start align-end text-xs">
-  <a href="https://unsplash.com/fr/s/photos/boucle-d'oreille" rel="noopener noreferrer" target="_blank">Unsplash</a>
-</p>
 
 <!--
 
@@ -157,7 +149,7 @@ class: my-cool-content-on-the-left
 hideInToc: true
 ---
 
-# Wireframes (Boutique - Desktop)
+# Wireframes
 
 <div class="flex justify-center py-5">
   <img src="/assets/img/wireframe-boutique-desktop.png" class="w-150">
@@ -173,33 +165,7 @@ hideInToc: true
  Le format desktop on retrouve des éléments familiers : une barre de navigation classique une disposition de produits sous forme de grille et les éléments de la page se plaçant les uns à côté des autres.
 -->
 
----
-hideInToc: true
----
 
-# Wireframes (Boutique - Tablette)
-
-<div class="flex justify-center py-5">
-  <img src="/assets/img/wireframe-boutique-tablet.png" class="w-100">
-</div>
-
-<!--
-Le format tablette on voit la première modification au niveau de la barre de navigation qui adopte le format mobile avec l'hamburger caractéristique permettant l'ouverture de la navigation au toucher. On constate également d'autres modifications au niveau de la page comme par exemple les catégories se déplaçant au même niveau que le filtre
--->
-
----
-hideInToc: true
----
-
-# Wireframes (Boutique - Smartphone)
-
-<div class="flex justify-center py-5">
-  <img src="/assets/img/wireframe-boutique-smartphone.png" class="w-75">
-</div>
-
-<!--
-Enfin le format smartphone adoptant une mise en page sur une seule colonne pour améliorer l'expérience de lecture bien sûr, lorsqu'on a beaucoup de produits, cela introduit également un problème du type page au scroll infinit que l'on peut résoudre assez facilement en limitant l'affichage du nombre de produits. Pour mon projet la limitation est mise par défaut à 12.
--->
 
 ---
 hideInToc: true
@@ -223,13 +189,6 @@ graph TD
     Accueil ~~~ Page404["Page 404"]
     Accueil ~~~ MentionsLégale["Mentions légale"]
 
-    Compte --> TableauDeBord["Tableau de bord"]
-    Compte --> Commandes --> |La page pour une commande| Commande
-    Compte --> Adresses --> |Ajouter/modifier une adresse| FormulaireAdresse["Formulaire adresse"]
-    Compte --> MoyensPaiement["Moyens de paiements"] --> |Ajouter/modifier une méthode de paiement| FormulairePaiement["Formulaire paiement"]
-    Compte --> DetailsCompte["Détails du compte"]
-    Compte --> SeDeconnecter["Se déconnecter"]
-
     classDef menu fill:#a855f7,color:white;
     classDef panier fill:#22c55e,color:white;
     classDef compte fill:#c084fc,color:black;
@@ -247,7 +206,6 @@ graph TD
   <div class="font-bold mb-0.5">Légende</div>
   <div><span class="px-1 py-0.5 rounded" style="background-color: #a855f7; color: #fff;">Menu (mauve foncé)</span> : éléments directs de la page d'accueil</div>
   <div><span class="px-1 py-0.5 rounded" style="background-color: #c4b5fd; color: #000;">Compte (mauve clair)</span> : éléments conditionnels (affichés si l'utilisateur est connecté)</div>
-  <div><span class="px-1 py-0.5 rounded" style="background-color: #38bdf8; color: #fff;">Navigation compte (bleu)</span> : navigation dans l'espace compte</div>
   <div><span class="px-1 py-0.5 rounded" style="background-color: #22c55e; color: #fff;">Panier (vert)</span> : pages liées au panier</div>
   <div><span class="px-1 py-0.5 rounded" style="background-color: #f59e42; color: #fff;">404 (orange)</span> : page d'erreur</div>
 </div>
@@ -348,7 +306,7 @@ hideInToc: true
 
 <div class="w-full flex justify-end mt-2">
   <p separator class="text-xs" style="margin:0!important;">
-    <a href="https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/belgium" rel="noopener noreferrer" target="_blank">StatCounter</a>
+    <a href="https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/belgium" rel="noopener noreferrer" target="_blank">https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet/belgium</a>
   </p>
 </div>
 
@@ -368,12 +326,7 @@ hideInToc: true
 <p>Le prototypage permet de visualiser rapidement l’interface d’un site avant son développement, facilitant les retours clients.
 Il aide à valider l’ergonomie, la navigation et l’expérience utilisateur dès les premières étapes du projet.</p>
 
-<v-switch>
-  <template #1><img src="/assets/img/proto-01.png" class="w-140"/></template>
-  <template #2><img src="/assets/img/proto-02.png" class="w-140"/></template>
-  <template #3><img src="/assets/img/proto-03.png"/></template>
-  <template #4><img src="/assets/img/proto-04.png"/></template>
-</v-switch>
+  <img src="/assets/img/proto.png" class="w-250"/>
 
 <!--
 Le prototypage est essentiel pour concevoir un design : il permet de visualiser rapidement le comportement des éléments du site, avant même le développement.
@@ -394,7 +347,7 @@ J’ai préparé ici un court exemple, basé sur la maquette Figma, qui simule l
 
 # Développement du thème
 
-Une fois le design validé, j’ai choisi de développer le thème WordPress entièrement à la main, sans constructeur visuel comme Elementor.
+J’ai choisi de développer le thème WordPress entièrement à la main, sans constructeur visuel comme Elementor.
 Cela représente à la fois un défi technique et une opportunité d’approfondir mes compétences en PHP et WordPress.
 
 | **Avantages**                                     | **Inconvénients**                                         |
@@ -627,3 +580,11 @@ Il reste bien sûr des choses à améliorer. J’aimerais reprendre l’organisa
 
 Ce projet, c’est un point d’arrivée… mais aussi un point de départ pour la suite.
 -->
+
+---
+hideInToc: true
+---
+
+<div class="flex items-center justify-center h-full">
+  <h1 class="text-center">Merci pour votre écoute</h1>
+</div>
